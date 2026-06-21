@@ -21,14 +21,28 @@ console.log(hasDriversLicense && hasGoodVision && isTirad);
  }
 */
 
-const scoreDolphins = (96 + 108 + 89) / 3; // оценка дельфинов
-const scoreKoalas = (88 + 91 + 110) / 3; //оценка коалы
-console.log(scoreDolphins, scoreKoalas ,"😁")
+// const scoreDolphins = (96 + 108 + 89) / 3; // оценка дельфинов
+// const scoreKoalas = (88 + 91 + 110) / 3; //оценка коалы
+// console.log(scoreDolphins, scoreKoalas ,"😁")
 
-if(scoreDolphins>scoreKoalas){
-  console.log(`Dolphins win the trophey 🏆` )
-}else if(scoreDolphins<scoreKoalas){
-  console.log(` Koalas win the trophey 🏆`)
-}else if(scoreDolphins=scoreKoalas){
-console.log(`Both win the tropy!`)
+// if(scoreDolphins>scoreKoalas){
+//   console.log(`Dolphins win the trophey 🏆` )
+// }else if(scoreDolphins<scoreKoalas){
+//   console.log(` Koalas win the trophey 🏆`)
+// }else if(scoreDolphins=scoreKoalas){
+// console.log(`Both win the tropy!`)
+// }
+
+const scoreDolphins = (97 + 112 + 80) / 3; // оценка дельфинов
+const scoreKoalas = (109 + 95 + 50) / 3; //оценка коалы
+console.log(scoreDolphins, scoreKoalas, "😁");
+
+if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
+  console.log(`Dolphins win the trophey 🏆`);
+} else if (scoreDolphins < scoreKoalas && scoreKoalas >= 100) {
+  console.log(` Koalas win the trophey 🏆`);
+} else if ((scoreDolphins === scoreKoalas && scoreDolphins >= 100 && scoreKoalas >=100)) {
+  console.log(`Both win the tropy!`);
+}else {
+  console.log(`No one wins the  trophy`)
 }
