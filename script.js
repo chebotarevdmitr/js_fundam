@@ -47,27 +47,31 @@ console.log(hasDriversLicense && hasGoodVision && isTirad);
 //   console.log(`No one wins the  trophy`)
 // }
 
-const day = "monday";
+// const day = "monday";
 
-switch (day) {
-  case "monday":
-    console.log(`plan structure`);
-    console.log(`go to coding meetup`);
-    break;
-  case "tuesday":
-    console.log(`prepare theory videos`);
-    break;
-  case "wenesday":
-  case "thursay":
-    console.log(`write code examples`);
-    break;
-  case "friday":
-    console.log("record videos");
-    break;
-  case "saturday":
-  case "sunday":
-    console.log("enjoy the weekend :D");
-    break;
-  default:
-    console.log("Not a valid day!");
-}
+// switch (day) {
+//   case "monday":
+//     console.log(`plan structure`);
+//     console.log(`go to coding meetup`);
+//     break;
+//   case "tuesday":
+//     console.log(`prepare theory videos`);
+//     break;
+//   case "wenesday":
+//   case "thursay":
+//     console.log(`write code examples`);
+//     break;
+//   case "friday":
+//     console.log("record videos");
+//     break;
+//   case "saturday":
+//   case "sunday":
+//     console.log("enjoy the weekend :D");
+//     break;
+//   default:
+//     console.log("Not a valid day!");
+// }
+const age = 15;
+age >= 18 ? console.log(`i like drink berr`): console.log(`i like drink vine`)
+
+
