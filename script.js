@@ -74,16 +74,24 @@ console.log(hasDriversLicense && hasGoodVision && isTirad);
 //const age = 15;
 //age >= 18 ? console.log(`i like drink berr`): console.log(`i like drink vine`)
 
-const age = 12;
-const drink = age >= 18 ? `wine 🍷 ` : `beer 🍺  `;
-console.log(drink);
+// const age = 12;
+// const drink = age >= 18 ? `wine 🍷 ` : `beer 🍺  `;
+// console.log(drink);
 
-let drink2;
-if (age >= 18) {
-  drink2 = `wine 🍷 `;
-} else {
-  drink2 = `beer 🍺  `;
-}
-console.log(drink2);
+// let drink2;
+// if (age >= 18) {
+//   drink2 = `wine 🍷 `;
+// } else {
+//   drink2 = `beer 🍺  `;
+// }
+// console.log(drink2);
 
-console.log(`I like to drink  ${age >= 18 ? `wine 🍷 ` : `beer 🍺  `}`);
+// console.log(`I like to drink  ${age >= 18 ? `wine 🍷 ` : `beer 🍺  `}`);
+
+const bill = 430;
+const tip = bill <= 300 && bill >= 50 ? bill * 0.15 : bill * 0.2;
+console.log(tip);
+console.log(
+  `The bill was ${bill},the tip was ${tip} ,and the total value ${bill + tip}`,
+);
+
