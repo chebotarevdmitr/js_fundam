@@ -21,3 +21,5 @@ function fruitProcessor(apples, oranges) {
 const applesJuice = fruitProcessor(5, 10);
 console.log (applesJuice);
 console.log(fruitProcessor(3,4))
+
+const  number = Number('23'); //string-to-number conversion function функция преобразования строки в число
