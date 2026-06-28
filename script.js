@@ -88,10 +88,10 @@ console.log(hasDriversLicense && hasGoodVision && isTirad);
 
 // console.log(`I like to drink  ${age >= 18 ? `wine 🍷 ` : `beer 🍺  `}`);
 
-const bill = 430;
-const tip = bill <= 300 && bill >= 50 ? bill * 0.15 : bill * 0.2;
-console.log(tip);
-console.log(
-  `The bill was ${bill},the tip was ${tip} ,and the total value ${bill + tip}`,
-);
+// const bill = 430;
+// const tip = bill <= 300 && bill >= 50 ? bill * 0.15 : bill * 0.2;
+// console.log(tip);
+// console.log(
+//   `The bill was ${bill},the tip was ${tip} ,and the total value ${bill + tip}`,
+// );
 
